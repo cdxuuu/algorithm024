@@ -1,5 +1,3 @@
-package src.main.java.com.cdx.algorithm.algorithm;
-
 import java.util.HashMap;
 
 public class TwoSum {
