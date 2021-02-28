@@ -30,4 +30,19 @@ void bfs(TreeNode root) {
 贪心算法适用的问题：
 　　贪心策略适用的前提是：局部最优策略能导致产生全局最优解。也就是当算法终止的时候，局部最优等于全局最优。
     例如：找零问题。
+ 
+二分查找：
+java模板
+
+int left = 0;
+int right = lenth - 1;
+while(left <= right){
+    int mid = (left + right) / 2;
+    if(array[mid] = target ) {
+        return result;
+    }else if(array[mid] < target){
+        left = mid + 1;
+    }else if(array[mid] > target) {
+        right = mid - 1;
+    }
 }
